@@ -813,5 +813,5 @@
   background-color: var(--container-page-bg);
   width: 100%;
   height: 1765px;
-  overflow: hidden;
+  overflow: scroll;
 }

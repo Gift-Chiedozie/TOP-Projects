@@ -21,23 +21,6 @@ body {
   gap: 2px;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  /* Styles for tablets */
-  .header-inner {
-    display: none;
-  }
-  .label-input-parent {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Styles for mobile devices */
-  .frame-parent {
-    flex-direction: column;
-  }
-}
 .sort-by {
   position: relative;
   font-weight: 500;
@@ -769,7 +752,7 @@ body {
   background-color: var(--container-page-bg);
   width: 100%;
   height: 1347px;
-  overflow: hidden;
+  overflow: scroll;
   text-align: left;
   font-size: var(--body-16-medium-size);
   color: var(--color-black);
