@@ -1,10 +1,10 @@
-
-  # locofy-html-css-project
-
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
+A simple e-commerce website that shows you a preview of the catlog of an electronic online-hub
+You can use the seach tab to search for specific items on the catalogue
+The first item on the list (ASUS... Motherboard) is accessible, click to view more details on the product
+Select how many you might like to buy and then add to cart or buy directly
+If you checked out more than necessary, you can use the buttons provided to reduce the item again.
+On the previous page, the main or home, there's an added feature for the category listings. Hover over the tab there and see the beautiful gradient coloured effect that sync perfectly with the companies brand colors.
+Search for items prompts a mini pop-up tab that displays more details about the product.
+These are the most fascinating among others.
+Enjoy!
   
