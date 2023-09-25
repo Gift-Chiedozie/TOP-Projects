@@ -46,13 +46,13 @@
             <div class="frame-container">
               <div class="color-parent">
                 <div class="color">Color</div>
-                <div class="color-group">
-                  <select class="color-option color1"></select>
-                  <select class="color-option color2"></select>
-                  <select class="color-option color3"></select>
-                  <select class="color-option color4"></select>
+                  <div class="color-group">
+                    <div class="color-option color1"></div>
+                    <div class="color-option color2"></div>
+                    <div class="color-option color3"></div>
+                    <div class="color-option color4"></div>
+                  </div>
                 </div>
-              </div>
               <div class="quantity-parent">
                 <div class="color">Quantity</div>
                 <div class="frame-div">
@@ -66,7 +66,7 @@
                     alt="reduce or subtract from selected item"
                     src="./public/frame-27.svg"
                   />
-                  <div class="div1" id="quantity-display">1</div>
+                  <div class="div1" id="quantity-display">0</div>
                 </div>
               </div>              
               <div class="button-parent">
@@ -286,7 +286,7 @@
       </main>
       <nav class="home-parent">
         <div class="sort-by">Home &gt;</div>
-        <div class="all-products" id="allProducts">All Products &gt;</div>
+        <div class="sort-by" id="allProducts">All Products &gt;</div>
         <div class="sort-by">Networking &gt;</div>
         <div class="sort-by">Server Components &gt;</div>
         <div class="sort-by">Server Motherboards &gt;</div>
@@ -387,7 +387,7 @@
       const decreaseButton = document.querySelector(".decrease-button");
     
       // Initialize the quantity
-      let quantity = 1;
+      let quantity = 0;
     
       // Function to update the quantity display
       function updateQuantity() {
@@ -402,7 +402,7 @@
     
       // Event listener for the decrease button
       decreaseButton.addEventListener("click", () => {
-        if (quantity > 1) {
+        if (quantity > 0) {
           quantity--;
           updateQuantity();
         }

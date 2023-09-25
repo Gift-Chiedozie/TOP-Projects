@@ -161,9 +161,7 @@
   height: 48px;
   overflow: hidden;
   flex-shrink: 0;
-  box-sizing: border-box;
-  transition: border 0.2s ease, transform 0.3 ease;
-  border: 4px solid transparent;
+  transition: transform 0.3 ease;
 }
 .color-option:hover {
   transform: scale(1.1);
