@@ -1,0 +1,146 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav div {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.hero-video img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.img-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.img-card {
+    text-align: center;
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-card:hover {
+    background-color: #28b563;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.img-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.img-card p {
+    margin-top: 10px;
+}
+
+.testimonies {
+    background-color: #f39c12;
+    padding: 40px;
+    color: #fff;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.testimonies p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.call-to-action {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.call-to-action h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button.white {
+    background-color: #fff;
+    color: #333;
+}
+
+.button.white:hover {
+    background-color: #ddd;
+}
